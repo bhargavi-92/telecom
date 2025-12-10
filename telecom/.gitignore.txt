@@ -1,0 +1,7 @@
+# This creates the .gitignore file and writes the content to it.
+echo "# Ignore sensitive and system files" > .gitignore
+echo "huggingfacepassword_*.txt" >> .gitignore
+echo "*.lnk" >> .gitignore
+echo "desktop.ini" >> .gitignore
+echo "heart.app.py.git" >> .gitignore
+echo "__pycache__/" >> .gitignore
